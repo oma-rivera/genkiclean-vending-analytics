@@ -3,66 +3,111 @@
 
 # GenkiClean Vending Analytics
 
-How can data help optimize a vending machine business?
+## Project Overview
 
-This project analyzes real sales data to understand performance patterns and drive better business decisions.
+This repository contains data analytics projects focused on GenkiClean's vending machine business model.
 
-## Business Context
+The objective is to use Python, Pandas, and data visualization to transform commercial and operational data into actionable business insights.
 
-GenkiClean operates a vending machine network as a direct-to-consumer sales channel for cleaning products. This project analyzes sales behavior to support expansion, location selection, and performance optimization.
-
-## Problem
-
-There was limited visibility into:
-
-- how sales are distributed across machines
-- variability in performance
-- the impact of location and city on revenue
-- which machines drive the highest value
-
-This made it difficult to make decisions about expansion, pricing and optimization.
+The projects analyze sales performance, product rotation, inventory behavior, refill planning, stockout exposure, and vending machine operations.
 
 ---
 
-## Approach
+## Projects Included
 
-Using Python (Pandas + Seaborn), I analyzed real sales data to:
+### 1. Sales Distribution & Performance Analysis
 
-- understand sales distribution
-- identify performance patterns
-- segment by city and location type
-- detect high and low performing conditions
+This analysis explores vending machine sales performance across products, locations, and time periods.
+
+It focuses on:
+
+- Sales distribution
+- Product performance
+- Location-level performance
+- Revenue behavior
+- Commercial insights
+
+[Open Sales Analysis Notebook](notebooks/01_sales_distribution_analysis.ipynb)
 
 ---
 
-## Key Insight
+### 2. Inventory Operations Analysis
 
-The performance of the vending network is not driven by the number of machines, but by the quality of their location and market context.
+This analysis explores daily inventory behavior across GenkiClean vending machines.
+
+It focuses on:
+
+- Daily liters dispensed
+- Product rotation
+- Refill behavior
+- Reorder risk
+- Stockout exposure
+- Machine-level performance
+- City and location-type analysis
+
+[Open Inventory Operations Notebook](notebooks/02_inventory_operations_analysis.ipynb)
 
 ---
 
-## Business Impact
+## Inventory Operations Analysis — Key Results
 
-This analysis enables:
+The inventory operations analysis reviewed one full year of vending machine inventory data.
 
-- smarter expansion decisions
-- better location selection
-- optimization of underperforming machines
-- data-driven strategy instead of intuition
+### Dataset Scope
+
+- 183,960 daily inventory records
+- 72 vending machines
+- 7 products
+- 8 cities
+- 6 regions
+- Full-year period: January 1, 2025 to December 31, 2025
+
+### Key Findings
+
+- The vending network dispensed 773,274.75 liters during the year.
+- Average daily consumption reached 2,118.56 liters.
+- Cloro was the highest-rotation product, with 147,862.16 liters dispensed.
+- Detergente multiusos generated the highest stockout exposure, with 24,069 stockout minutes.
+- Total stockout exposure reached 77,028 minutes, equivalent to approximately 1,283.8 hours.
+- The operation recorded 18,721 reorder risk events.
+
+---
+
+## Business Recommendations
+
+Based on the analysis, GenkiClean should:
+
+1. Prioritize high-rotation and high-risk products such as Cloro and Detergente multiusos.
+2. Use reorder risk as an early warning signal for refill planning.
+3. Adjust refill frequency by product, machine, city, and location type.
+4. Monitor stockout minutes as a weekly operations KPI.
+5. Use location-level demand to support future vending machine expansion decisions.
 
 ---
 
 ## Tools Used
 
-- Python (Pandas)
-- Seaborn
+- Python
+- Pandas
+- NumPy
 - Matplotlib
+- Seaborn
 - Jupyter Notebook
-- Data Visualization
+- Google Sheets
 
 ---
 
-## Project File
+## Repository Structure
 
-👉 See full analysis in the notebook:
-[View full notebook](notebooks/GenkiClean_Vending_Analytics.ipynb)
+```text
+genkiclean-vending-analytics/
+│
+├── README.md
+│
+├── notebooks/
+│   ├── 01_sales_distribution_analysis.ipynb
+│   └── 02_inventory_operations_analysis.ipynb
+│
+├── images/
+│
+└── data/
