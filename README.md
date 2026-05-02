@@ -1,28 +1,49 @@
 # GenkiClean Vending Analytics
 
-This project analyzes the performance of a vending machine network using Python.
+How can data help optimize a vending machine business?
 
-## Objective
+This project analyzes real sales data to understand performance patterns and drive better business decisions.
 
-To understand how sales behave across the vending channel and identify factors that impact performance.
+## Problem
 
-## Key Analysis
+There was limited visibility into:
 
-- Sales distribution across machines
-- Performance by city
-- Performance by location type
-- Combined analysis (city + location)
+- how sales are distributed across machines
+- variability in performance
+- the impact of location and city on revenue
+- which machines drive the highest value
+
+This made it difficult to make decisions about expansion, pricing and optimization.
+
+---
+
+## Approach
+
+Using Python (Pandas + Seaborn), I analyzed real sales data to:
+
+- understand sales distribution
+- identify performance patterns
+- segment by city and location type
+- detect high and low performing conditions
+
+---
 
 ## Key Insight
 
 The performance of the vending network is not driven by the number of machines, but by the quality of their location and market context.
 
+---
+
 ## Business Impact
 
-- Identify high-performing locations
-- Improve decision-making for expansion
-- Optimize underperforming machines
-- Support data-driven strategy
+This analysis enables:
+
+- smarter expansion decisions
+- better location selection
+- optimization of underperforming machines
+- data-driven strategy instead of intuition
+
+---
 
 ## Tools Used
 
@@ -30,8 +51,9 @@ The performance of the vending network is not driven by the number of machines, 
 - Seaborn
 - Jupyter Notebook
 
+---
+
 ## Project File
 
-See the full analysis here:
-
-👉 `GenkiClean Vending Analytics.ipynb`
+👉 See full analysis in the notebook:
+GenkiClean_Vending_Analytics.ipynb
