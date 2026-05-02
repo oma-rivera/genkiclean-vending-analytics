@@ -1,6 +1,6 @@
 ## Sample Visualization
-<img width="1048" height="778" alt="Captura de pantalla 2026-05-01 a la(s) 9 22 12 p m" src="https://github.com/user-attachments/assets/de1f263a-b305-410b-993f-ca887b29db5d" />
-![Uploading image.png…]()
+<img width="1321" height="622" alt="Captura de pantalla 2026-05-02 a la(s) 2 27 05 p m" src="https://github.com/user-attachments/assets/5117c230-1043-4d6f-9179-08f1cc54a061" />
+
 
 
 # GenkiClean Vending Analytics
