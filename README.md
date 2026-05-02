@@ -1,3 +1,4 @@
+## Sample Visualization
 <img width="1048" height="778" alt="Captura de pantalla 2026-05-01 a la(s) 9 22 12 p m" src="https://github.com/user-attachments/assets/de1f263a-b305-410b-993f-ca887b29db5d" />
 
 # GenkiClean Vending Analytics
@@ -5,6 +6,10 @@
 How can data help optimize a vending machine business?
 
 This project analyzes real sales data to understand performance patterns and drive better business decisions.
+
+## Business Context
+
+GenkiClean operates a vending machine network as a direct-to-consumer sales channel for cleaning products. This project analyzes sales behavior to support expansion, location selection, and performance optimization.
 
 ## Problem
 
@@ -51,11 +56,13 @@ This analysis enables:
 
 - Python (Pandas)
 - Seaborn
+- Matplotlib
 - Jupyter Notebook
+- Data Visualization
 
 ---
 
 ## Project File
 
 👉 See full analysis in the notebook:
-GenkiClean_Vending_Analytics.ipynb
+[View full notebook](notebooks/GenkiClean_Vending_Analytics.ipynb)
